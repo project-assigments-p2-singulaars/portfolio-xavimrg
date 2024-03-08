@@ -1,0 +1,133 @@
+body {
+    background-color: #ecf4ff;
+    background-image: url("img/BLUE-BACKROUND.png");
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: 100%;
+    height: 1080px;
+    min-height: 100vh;
+}
+
+main {
+    background-size: 100%;
+}
+
+.headerButton {
+    border: 1px solid #39acff;
+    /*anchura, estilo y color borde*/
+    padding: 10px;
+    /*espacio alrededor texto*/
+    background-color: #39acff;
+    /*color botón*/
+    color: #000000;
+    /*color texto*/
+    text-decoration: none;
+    /*decoración texto*/
+    text-transform: uppercase;
+    /*capitalización texto*/
+    font-family: "homemadeapple", sans-serif;
+    /*tipografía texto*/
+    border-radius: 25px;
+    /*bordes redondos*/
+    display: flex;
+}
+
+.header {
+    height: 10vh;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+#headerButtonsContainer {
+    display: flex;
+    align-self: flex-end;
+    justify-content: flex-end;
+    gap: 25px;
+}
+
+#textHomePageContainer {
+    height: 70vh;
+    margin-left: 300px;
+    margin-top: 500px;
+}
+
+.textHomePage1 {
+    font-size: 80px;
+}
+
+.textHomePage2 {
+    margin-top: 350px;
+    font-size: 120px;
+}
+
+.footerButton {
+    border: 1px solid #39acff;
+    /*anchura, estilo y color borde*/
+    padding: 10px;
+    /*espacio alrededor texto*/
+    background-color: #39acff;
+    /*color botón*/
+    color: #000000;
+    /*color texto*/
+    text-decoration: none;
+    /*decoración texto*/
+    text-transform: uppercase;
+    /*capitalización texto*/
+    font-family: sans-serif;
+    /*tipografía texto*/
+    border-radius: 25px;
+    /*bordes redondos*/
+    display: flex-row;
+}
+
+
+footer {
+    
+    display: flex;
+    align-self: flex-end;
+    justify-content: space-between;
+    gap: 25px;
+    margin-top: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.textFooter {
+    font-size: 24px;
+    padding-bottom: 0px;
+}
+
+#footerButtonsContainer {
+    flex-direction: row;
+    gap: 25px;
+}
+
+#pportfolioPage{
+    width: 100vh;
+}
+#portfolioTitle {
+    display: flex;
+    width: 100vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+
+#imagesPortfolioLine1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+#imagesPortfolioLine2 {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    gap: 25px}
